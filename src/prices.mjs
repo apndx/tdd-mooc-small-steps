@@ -67,7 +67,7 @@ function createApp(database) {
         date.getDate() === holiday.getDate()
       ) {
         return true;
-      } else if (date && date.year === newHoliday.year && date.month === newHoliday.month && date.day === newHoliday.day){return true;}
+      } else if (date2 && date2.year === newHoliday.year && date2.month === newHoliday.month && date2.day === newHoliday.day){return true;}
     }
     return false;
   }
