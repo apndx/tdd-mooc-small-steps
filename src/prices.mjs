@@ -78,6 +78,8 @@ function createApp(database) {
     }
   }
 
+  function parsePlainDate(dateString) { if (dateString) {  return new Temporal.PlainDate.from(dateString); } }
+
   const app = express();
 
   app.put("/prices", (req, res) => {
