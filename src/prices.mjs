@@ -54,7 +54,7 @@ function createApp(database) {
 
   function isMonday(date, date2) {
     console.log(date, date2)
-    console.log(date.getDay(), date2.day)
+    console.log(date.getDay(), date2.dayOfWeek)
     return date.getDay() === 1 || date2.dayOfWeek === 'MON';
   }
 
